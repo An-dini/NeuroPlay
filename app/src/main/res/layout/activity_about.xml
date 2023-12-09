@@ -7,6 +7,14 @@
     android:background="@color/backgroud"
     tools:context=".view.AboutActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/transparant"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="About Us" />
+
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="wrap_content"

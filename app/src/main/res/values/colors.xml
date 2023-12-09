@@ -30,4 +30,6 @@
     <color name="black">#1A1A1A</color>
     <color name="white">#F8FAFC</color>
     <color name="backgroud">#FAFAF9</color>
+    <color name="transparant">#00FAFAF9</color>
+
 </resources>

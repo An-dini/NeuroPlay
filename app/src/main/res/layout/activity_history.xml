@@ -7,6 +7,14 @@
     android:background="@color/backgroud"
     tools:context=".view.HistoryActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/transparant"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="History Score" />
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"
         android:layout_width="wrap_content"
