@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_pager_height_login">330dp</dimen>
+    <dimen name="view_pager_height_register">500dp</dimen>
+
+
+</resources>

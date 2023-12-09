@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".view.FinishedActivity">
+
+    <TextView
+        style="@style/Bold24spWhite"
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Finish!"
+        android:gravity="center"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="finished_play.json"
+        app:lottie_loop="true"
+        app:lottie_speed="1.0" />
+
+    <TextView
+        style="@style/Bold24spWhite"
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/lottieAnimationView"
+        android:text="Your Score Is"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Bold32spWhite"
+            android:id="@+id/tvSumQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_list"
+            android:drawableTint="@color/white"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            style="@style/Bold32spWhite"
+            android:id="@+id/tvWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_wrong"
+            android:drawableTint="@color/white"
+            android:drawablePadding="8dp"
+            android:layout_marginStart="56dp"/>
+
+        <TextView
+            style="@style/Bold32spWhite"
+            android:id="@+id/tvCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="29"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_correct"
+            android:drawableTint="@color/white"
+            android:drawablePadding="8dp"
+            android:layout_marginStart="56dp" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Bold16spWhite"
+        android:id="@+id/btBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/score"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="@color/orange"
+        android:text="Oke!"
+        android:textAllCaps="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

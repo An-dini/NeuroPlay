@@ -83,7 +83,7 @@ class PlayActivity : AppCompatActivity() {
     }
 
     private fun goToResultPage() {
-        val intent = Intent(this, HistoryActivity::class.java)
+        val intent = Intent(this, FinishedActivity::class.java)
         intent.putExtra("TOTAL_QUESTIONS", questions.size)
         intent.putExtra("CORRECT_ANSWERS", correctAnswers)
         intent.putExtra("WRONG_ANSWERS", wrongAnswers)
