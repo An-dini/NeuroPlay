@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NeuroPlay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_apps">NeuroPlay is a cutting-edge mobile application designed to provide a comprehensive brain training experience. Our app offers a variety of engaging games, including activities focused on arithmetic operations such as addition, subtraction, multiplication, and division. These games are specifically crafted to enhance cognitive abilities and mental agility. Through NeuroPlay, users can access a range of features aimed at optimizing brain function, including mental state recognition, meditation, and concentration indexes.\n\nJoin us on a journey to unlock your brain\'s full potential with NeuroPlay.</string>
 </resources>
